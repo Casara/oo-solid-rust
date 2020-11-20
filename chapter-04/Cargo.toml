@@ -1,0 +1,16 @@
+[package]
+name = "chapter-04"
+version = "0.1.0"
+authors = ["Rodrigo Casara <rodrigocasara@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+
+[dependencies]
+
+[dev-dependencies]
+mockall = "0.8.3"
+pretty_assertions = "0.6.1"
+
+[[example]]
+name = "calculate_price"
+path = "examples/calculate_price.rs"
