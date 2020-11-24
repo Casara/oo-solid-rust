@@ -85,6 +85,6 @@ mod tests {
             .for_each(|(employee, expected_net_salary)| {
                 let calculated_net_salary = salary_calculator.calculate(employee);
                 assert_eq!(expected_net_salary, &calculated_net_salary);
-            })
+            });
     }
 }

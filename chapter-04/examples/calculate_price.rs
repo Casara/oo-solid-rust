@@ -14,8 +14,8 @@ impl PriceList for DifferentiatedPriceList {
 }
 
 impl DeliveryService for ShippingByPost {
-    fn shipping_cost(&self, city: &String) -> f64 {
-        if "SAO PAULO".to_string().eq(&city.to_uppercase()) {
+    fn shipping_cost(&self, city: &str) -> f64 {
+        if "SAO PAULO".eq(&city.to_uppercase()) {
             15.0
         } else {
             30.0

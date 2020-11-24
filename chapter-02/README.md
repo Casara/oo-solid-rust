@@ -1,4 +1,4 @@
-# Chapter 02 — Cohesion and the so-called SRP (Single-responsiblity principle)
+# Chapter 02 - Cohesion and the so-called SRP (Single-responsiblity principle)
 
 **Role.java**
 ```java

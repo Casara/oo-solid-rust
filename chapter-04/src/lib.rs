@@ -34,7 +34,7 @@ pub trait PriceList {
 
 #[cfg_attr(test, automock)]
 pub trait DeliveryService {
-    fn shipping_cost(&self, city: &String) -> f64;
+    fn shipping_cost(&self, city: &str) -> f64;
 }
 
 #[cfg(test)]
@@ -59,7 +59,7 @@ mod tests {
 
         delivery_service
             .expect_shipping_cost()
-            .with(eq("SP".to_string()))
+            .with(eq("SP"))
             .return_const(15.0);
         delivery_service.expect_shipping_cost().return_const(30.0);
 

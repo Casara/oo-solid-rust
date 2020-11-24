@@ -1,4 +1,4 @@
-# Chapter 03 — Coupling and the so-called DIP (Dependency Inversion Principle)
+# Chapter 03 - Coupling and the so-called DIP (Dependency Inversion Principle)
 
 **Invoice.java**
 ```java

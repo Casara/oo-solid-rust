@@ -1,4 +1,4 @@
-# Chapter 04 — Open classes and the so-called OCP (Open-closed principle)
+# Chapter 04 - Open classes and the so-called OCP (Open-closed principle)
 
 **PriceCalculator.java**
 ```java
